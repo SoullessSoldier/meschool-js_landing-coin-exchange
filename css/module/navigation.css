@@ -14,3 +14,16 @@
         max-width: 740px;
     }
 }
+
+@media (max-width: 480px){
+    .navigation__list{
+        padding-left: 15px;
+        padding-right: 15px;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .navigation__item{
+        margin-bottom: 20px;
+        margin-right: 0;        
+    }
+}
