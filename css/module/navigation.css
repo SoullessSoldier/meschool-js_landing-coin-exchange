@@ -1,0 +1,16 @@
+.navigation__list {
+    display: flex;
+    align-items: center;    
+}
+
+.navigation__item:not(:last-child) {
+    margin-right: 43px;
+}
+
+@media (max-width: 768px){
+    .navigation__list{
+        padding: 16px 30px;
+        margin: 0 auto;
+        max-width: 740px;
+    }
+}
