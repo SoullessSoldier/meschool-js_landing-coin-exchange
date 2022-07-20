@@ -14,4 +14,4 @@
 
 ### Day2 ###
 #### Верстаем первый блок и модальное окно ####
-*https://api-form-order.herokuapp.com/api/order*
+Отправка данных формы регистрации на *https://api-form-order.herokuapp.com/api/order*

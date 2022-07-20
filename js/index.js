@@ -1,8 +1,3 @@
-'use strict';
+import './menu.js';
+import './modal.js';
 
-const headerNavBtn = document.querySelector('.header__nav-btn'),
-    headerNavigation = document.querySelector('.header__navigation');
-
-headerNavBtn.addEventListener('click', () => {
-    headerNavigation.classList.toggle('header__navigation_open');
-});
