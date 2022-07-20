@@ -29,7 +29,7 @@
         transition: transform 0.36ms ease-in-out;
     }
     .header__navigation_open{
-        transform: translateY(100%);
+        transform: translateY(calc(100% - 1px));
     }
     .header__nav-btn {
         display: block;
