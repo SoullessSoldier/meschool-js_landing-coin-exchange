@@ -15,3 +15,9 @@
 ### Day2 ###
 #### Верстаем первый блок и модальное окно ####
 Отправка данных формы регистрации на *https://api-form-order.herokuapp.com/api/order*
+
+
+### Day3 ###
+#### Footer, О нас, табы и websocket ####
+
+*'ws://web-socket-current.herokuapp.com'*

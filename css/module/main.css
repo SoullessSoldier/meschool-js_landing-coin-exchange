@@ -1,11 +1,12 @@
 .main{
+    
+    /*background-size: cover;*/
+}
+.main__container{
     background-color: #000;
     background-image: url(../../img/banner.png);
     background-repeat:  no-repeat;
     background-position: center;
-    /*background-size: cover;*/
-}
-.main__container{
     height: 540px;
 }
 .main__hero{
@@ -48,13 +49,13 @@
 }
 
 .main__hero-btn:hover{
-    outline: 1px solid #1C88EB;
+    border: 1px solid #1C88EB;
 }
 .main__hero-btn:active{
-    background: #1C88EB;
+    background-color: #1C88EB;
 }
 .main__hero-btn:disabled{
-    background: #D7D7D7;
+    background-color: #D7D7D7;
 }
 
 @media (max-width: 1024px){

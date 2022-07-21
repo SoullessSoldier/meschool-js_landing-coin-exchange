@@ -20,7 +20,7 @@ img, svg{
 }
 button{
     padding: 0;
-    border: none;
+    border: 1px solid transparent;
     cursor: pointer;
 }
 a{
