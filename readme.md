@@ -20,4 +20,12 @@
 ### Day3 ###
 #### Footer, О нас, табы и websocket ####
 
-*'ws://web-socket-current.herokuapp.com'*
+*'ws://web-socket-current.herokuapp.com'*\
+при хостинге надо менять *ws* на *wss* 
+
+### Day4 ###
+#### Блок чаво, аккордеон ####
+Исчезающий дисклеймер вверху страницы.\
+В аккордеоне раскрытым остается только один элемент, остальные сворачиваются.
+
+URL-encoder for SVG *https://yoksel.github.io/url-encoder/*

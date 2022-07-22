@@ -36,6 +36,7 @@
     max-width: 640px;
     margin: 0 auto;
     display: none;
+    align-items: center;
     font-family: 'IBM Plex Sans';
     font-weight: 300;
     font-size: 22px;
@@ -75,3 +76,45 @@
     background-image: url(../../img/security.svg);
 }
 
+@media(max-width:860px){
+    .advantage__list-btn{
+      margin-bottom: 35px;  
+    }    
+    .advantage__btn{
+        width: 160px;
+        height: 39px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .advantage__item-content{
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+@media(max-width: 720px){    
+    .advantage__list-btn{
+        flex-wrap: wrap;
+        max-width: 340px;
+        margin: 15px auto;
+    }
+}
+
+@media(max-width: 480px){    
+    .advantage__list-btn{        
+        max-width: 280px;
+        margin: 10px auto;
+    }
+    .advantage__btn{
+        width: 140px;        
+    }
+    .advantage__item-content{
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .advantage__item-content::before{
+        width: 60px;
+        height: 60px;
+    }
+}

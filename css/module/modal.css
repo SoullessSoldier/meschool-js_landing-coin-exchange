@@ -8,10 +8,7 @@
     text-align: left;
     white-space: normal;
     visibility: hidden;
-    opacity: 0;
-    transition-property: opacity, visibility;
-    transition-timing-function: ease-in-out;
-    
+    opacity: 0;   
 }
 
 .modal_open{

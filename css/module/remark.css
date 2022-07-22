@@ -1,0 +1,32 @@
+.remark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;   
+    background-color: #08475E;
+    z-index: 9998;
+    overflow: hidden;    
+}
+
+.remark__text{
+    padding: 20px 0;
+    font-family: 'IBM Plex Sans';    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;    
+}
+
+@media(max-width: 1024px){
+    .remark__text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+}
+
+@media(max-width: 320px){
+    .remark{
+        padding: 14px 10px;
+    }
+}

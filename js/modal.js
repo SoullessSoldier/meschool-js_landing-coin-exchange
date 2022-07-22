@@ -20,8 +20,19 @@ const showResponse = (data) => {
     }, 2000);
 };
 
-overlay.getElementsByClassName.transitionDuration = '0.36s';
-modal.getElementsByClassName.transitionDuration = '0.36s';
+setTimeout(() => {
+    overlay.style.cssText = `
+    transition-property = opacity, visibility;
+    transition-timing-function = ease-in-out;
+    transition-duration = '0.36s';
+`;
+modal.style.cssText = `
+    transition-property = opacity, visibility;
+    transition-timing-function = ease-in-out;
+    transition-duration = '0.36s';
+`;
+}, 360);
+
 
 heroBtn.addEventListener('click', () => {
     overlay.classList.add('overlay_open');
